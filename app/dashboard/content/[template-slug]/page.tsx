@@ -16,7 +16,7 @@ import { TotalUsageContext } from "@/app/(context)/TotalUsageContext";
 import { useRouter } from "next/navigation";
 import { UserSubscriptionContext } from "@/app/(context)/UserSubscriptionContext";
 
-interface PROPS {
+interface Template {
   params: {
     "template-slug": string;
   };
@@ -25,7 +25,7 @@ interface PROPS {
 
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY as string;
 
-function CreateNewContent(prop: PROPS) {
+function CreateNewContent(prop: Template) {
   const selectedTemplate: any | TEMPLATE | undefined = Templates?.find(
     (item) => item.slug === prop.params["template-slug"]
   );
