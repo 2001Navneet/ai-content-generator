@@ -69,7 +69,13 @@ export default function LandingPage() {
   );
 }
 
-function Feature({ icon, title, desc }) {
+interface FeatureProps {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+}
+
+function Feature({ icon, title, desc }: FeatureProps) {
   return (
     <div>
       {icon}
