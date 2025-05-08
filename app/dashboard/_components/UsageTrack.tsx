@@ -24,7 +24,9 @@ function UsageTrack() {
     const result: any = await db
       .select()
       .from(AIOutput)
-      .where(eq(AIOutput.createdBy, user?.primaryEmailAddress?.emailAddress));
+      .where(
+        eq(AIOutput.createdBy, user?.primaryEmailAddress?.emailAddress || "")
+      );
     GetTotalUsage(result);
   };
   const IsUserSubscribe = async () => {
