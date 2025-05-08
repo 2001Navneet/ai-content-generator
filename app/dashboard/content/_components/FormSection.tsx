@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { TEMPLATE } from "../../_components/TemplateListSection";
 import Image from "next/image";
@@ -10,7 +11,8 @@ import { Loader2Icon } from "lucide-react";
 interface FORM {
   label: string;
   field: "input" | "textarea";
-  name: string; // Added name property
+  name: string;
+  required?: boolean;
 }
 
 interface PROPS {
@@ -38,7 +40,7 @@ function FormSection({ selectedTemplate, userFormInput, loading }: PROPS) {
       </h2>
       <p className="text-gray-500 text-sm">{selectedTemplate?.desc}</p>
       <form className="mt-6 " onSubmit={onSubmit}>
-        {selectedTemplate?.form?.map((item, index) => (
+        {selectedTemplate?.form?.map((item: FORM, index) => (
           <div className="my-2 flex flex-cols gap-2 mb-7">
             <label className="font-bold">{item.label}</label>
             {item.field === "input" ? (
