@@ -78,7 +78,7 @@ export default [
     category: "Video",
     icon: "https://cdn-icons-png.flaticon.com/128/1384/1384060.png",
     aiPrompt:
-      "Suggest 15 clickable YouTube video titles for the given video idea. Keep them short and catchy.",
+      "Suggest 25 clickable YouTube video titles for the given video idea. Keep them short and catchy.and also add description in detail add some link to the websites",
     slug: "youtube-title-generator",
     form: [
       {
