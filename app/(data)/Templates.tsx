@@ -5,7 +5,7 @@ export default [
     category: "Blog",
     icon: "https://cdn-icons-png.flaticon.com/128/13225/13225927.png",
     aiPrompt:
-      "Give me 5 blog topic ideas in bullet wise only based on given niche topic and give me result in text editor format.",
+      "Give me 25 blog topic ideas in bullet wise only based on given niche topic and give me result in text editor format.",
     slug: "blog-title-generator",
     form: [
       {
@@ -27,7 +27,7 @@ export default [
     category: "Social Media",
     icon: "https://cdn-icons-png.flaticon.com/128/1384/1384031.png",
     aiPrompt:
-      "Write 5 catchy Instagram captions in bullet points for the given theme or idea. Use emojis where suitable.",
+      "Write 25 catchy Instagram captions in bullet points for the given theme or idea. Use emojis where suitable.",
     slug: "instagram-caption-generator",
     form: [
       {
@@ -44,7 +44,7 @@ export default [
     category: "Social Media",
     icon: "https://cdn-icons-png.flaticon.com/128/145/145807.png",
     aiPrompt:
-      "Generate a LinkedIn post with a formal and impactful tone on the given topic. Include a strong opening line.",
+      "Generate a LinkedIn post with a formal and impactful tone on the given topic. Include a strong opening line.In detail format",
     slug: "linkedin-post-generator",
     form: [
       {
@@ -61,7 +61,7 @@ export default [
     category: "Social Media",
     icon: "https://cdn-icons-png.flaticon.com/128/733/733579.png",
     aiPrompt:
-      "Write 5 tweet variations under 280 characters for the given topic. Include relevant hashtags if needed.",
+      "Write 25 tweet variations under 280 characters for the given topic. Include relevant hashtags if needed.",
     slug: "tweet-generator",
     form: [
       {
@@ -78,7 +78,7 @@ export default [
     category: "Video",
     icon: "https://cdn-icons-png.flaticon.com/128/1384/1384060.png",
     aiPrompt:
-      "Suggest 5 clickable YouTube video titles for the given video idea. Keep them short and catchy.",
+      "Suggest 15 clickable YouTube video titles for the given video idea. Keep them short and catchy.",
     slug: "youtube-title-generator",
     form: [
       {
@@ -95,7 +95,7 @@ export default [
     category: "Social Media",
     icon: "https://cdn-icons-png.flaticon.com/128/709/709496.png",
     aiPrompt:
-      "Give me 10 trending and relevant hashtags for the given topic. Include a mix of high and medium popularity tags.",
+      "Give me 20 trending and relevant hashtags for the given topic. Include a mix of high and medium popularity tags.",
     slug: "hashtag-generator",
     form: [
       {
@@ -112,7 +112,7 @@ export default [
     category: "Content",
     icon: "https://cdn-icons-png.flaticon.com/128/2769/2769339.png",
     aiPrompt:
-      "Write 5 common FAQs with answers for the given topic or product. Keep it clear and concise.",
+      "Write 25 common FAQs with answers for the given topic or product. Keep it clear and concise.",
     slug: "faq-generator",
     form: [
       {
@@ -129,7 +129,7 @@ export default [
     category: "Career",
     icon: "https://cdn-icons-png.flaticon.com/128/942/942748.png",
     aiPrompt:
-      "Write a strong resume summary for a candidate with the given experience and role. Keep it under 100 words.",
+      "Write a strong resume summary for a candidate with the given experience and role. Keep it under 300 words.",
     slug: "resume-summary-generator",
     form: [
       {
@@ -163,7 +163,7 @@ export default [
     category: "Content",
     icon: "https://cdn-icons-png.flaticon.com/128/3075/3075977.png",
     aiPrompt:
-      "Generate 5 original motivational quotes based on the given theme. Keep them short and powerful.",
+      "Generate 25 original motivational quotes based on the given theme. Keep them short and powerful.",
     slug: "quote-generator",
     form: [
       {
@@ -180,7 +180,7 @@ export default [
     category: "Email",
     icon: "https://cdn-icons-png.flaticon.com/128/481/481112.png",
     aiPrompt:
-      "Write a friendly and engaging newsletter intro paragraph for the given topic or audience.",
+      "Write a friendly and engaging newsletter intro paragraph for the given topic or audience.in 300 words",
     slug: "newsletter-intro-generator",
     form: [
       {
